@@ -24,14 +24,13 @@ void main()
 					break;
 
 				case 3:
-          printf("\n Enter the radius of base and height of cone: ");
+                                        printf("\n Enter the radius of base and height of cone: ");
 					scanf("%f%f",&r,&h);
 					printf("\n Surface area=%f  \n Volume=%f", pi*r*r+2*pi*r*sqrt(h*h+r*r), 1/3*3.14*r*r*h);
 					break;
 					
-
 				case 4:
-          printf("\n Enter the radius of sphere: ");
+                                        printf("\n Enter the radius of sphere: ");
 					scanf("%f",&r);
 					printf("\n Surface area=%f  \n Volume=%f", 4*pi*r*r, 4/3*pi*r*r*r);
 					break;
@@ -48,6 +47,4 @@ void main()
 					break;
 	
 			}
-
-
 	}
